@@ -71,7 +71,7 @@ a {
 }
 
 .light {
-    background-color: black;
+    background-color: black !important;
 }
 
 .light * {
@@ -80,8 +80,20 @@ a {
 
 .light #about *{
     color: #fff !important;
+    background-color: black;
 }
 
+.light #navbar {
+    background-color: rgb(43, 41, 41);
+}
+
+.light #footer{
+    background-color: rgb(33, 32, 32);
+}
+
+.light #footer *{
+    color: #fff !important;
+}
 /* .light #navbar.nav-btn{
     background-color: black;
 } */

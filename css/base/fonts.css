@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    --primary-color: #F53855;
+    --subtitle-color: #4F5665;
+    --secondary-color: #fff;
+    --black-color: #000;
+    --darkblue-color: #0B132A;
+    font-family: 'Rubik', sans-serif;
+}

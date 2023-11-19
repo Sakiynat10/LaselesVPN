@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    --primary-color: #F53855;
+    --subtitle-color: #4F5665;
+    --secondary-color: #fff;
+    --black-color: #000;
+    --darkblue-color: #0B132A;
+    font-family: 'Rubik', sans-serif;
+}
+
+.d__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
