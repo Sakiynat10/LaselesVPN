@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -36,8 +42,8 @@
       </div>
     </div>
     <!---------------------------- Header Section---------------------------->
-    <header>
-      <section id="navbar">
+    <header id="navbar">
+      <section class="navbar">
         <div class="container d__flex">
           <div class="nav__logo d__flex">
             <img src="./images/Logo.svg" alt="logo svg" />
@@ -284,7 +290,7 @@
       </section>
 
       <section id="customer">
-        <div class="container">
+        <div class="customer__container container">
           <div class="customer__info">
             <h1>Trusted by Thousands of Happy Customer</h1>
             <p>
@@ -419,53 +425,81 @@
     <!---------------------------- Footer Section---------------------------->
     <footer>
       <section id="footer">
-        <div class="footer-container container">
-          <div class="footer-logo--line">
-            <div class="footer__logo d-flex">
-              <img src="./images/Logo.svg" alt="" />
-              <h1>Lasles<strong>VPN</strong></h1>
+        <div class="footer__container container">
+          <div class="footer__logo--line">
+            <div class="footer__logos">
+              <img src="./images/Logo.svg" alt="logo svg" />
+              <h1 class="nav__title">
+                Lasles<strong class="logo__mini--title">VPN</strong>
+              </h1>
             </div>
-            <p>
-              LaslesVPN is a private virtual network <br>that has unique features
-           <br>   and has high security.
+            <p class="logo__subtitle">
+              LaslesVPN is a private virtual network that has unique features
+              and has high security.
             </p>
-            <div class="foote-medias">
+            <div class="medias">
               <img src="./images/Facebook.svg" alt="">
-              <img src="./images/Facebook.svg" alt="">
-              <img src="./images/Facebook.svg" alt="">
+              <img src="./images/Twitter.svg" alt="">
+              <img src="./images/Instagram.svg" alt="">
             </div>
+            <p class="tag">©2020LaslesVPN</p>
           </div>
-          <div class="footer__product">
+          <div class="footer__infos">
             <h3>Product</h3>
-            <ul>
+            <ul class="footer__items">
               <li>
                 <a href="#">Download </a>
-                <a href="#">Pricing </a>
-                <a href="#">Locations </a>
-                <a href="#">Server </a>
-                <a href="#">Countries </a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+              <li>
+                <a href="#">Locations</a>
+              </li>
+              <li>
+                <a href="#">Server</a>
+              </li>
+              <li>
+                <a href="#">Product</a>
+              </li>
+              <li>
+                <a href="#">Countries</a>
+              </li>
+              <li>
                 <a href="#">Blog</a>
               </li>
             </ul>
           </div>
-          <div class="footer__Engage">
+          <div class="footer__infos">
             <h3>Engage</h3>
             <ul>
               <li>
                 <a href="#">LaslesVPN ?  </a>
-                <a href="#">FAQ </a>
-                <a href="#">Tutorials </a>
-                <a href="#">About Us </a>
-                <a href="#">Privacy Policy </a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Tutorials</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
                 <a href="#">Terms of Service</a>
               </li>
             </ul>
           </div>
-          <div class="footer__money">
+          <div class="footer__infos">
             <h3>Earn Money</h3>
             <ul>
               <li>
-                <a href="#">Affiliate</a>
+                <a href="#">Affiliate </a>
+              </li>
+              <li>
                 <a href="#">Become Partner</a>
               </li>
             </ul>
